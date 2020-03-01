@@ -13,7 +13,7 @@ class LeadRepository extends BaseRepository
      * @var array
      */
     protected $searchable = [
-        'status',
+        'status' => 'like',
         'name' => 'like'
     ];
     /**

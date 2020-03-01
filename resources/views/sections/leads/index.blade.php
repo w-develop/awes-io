@@ -46,8 +46,7 @@
                     <div class="grid grid-gap-x grid_forms">
                         <div class="cell">
                             <fb-input name="name" label="{{ _p('pages.leads.filter.name', 'Name') }}"></fb-input>
-<!--                             <fb-input name="status" label="{{ _p('pages.leads.filter.status', 'Status') }}"></fb-input> -->
-                                <fb-select name="status" label="Status"   :select-options="[{name: 'Option 1', value: 'option_one'}, {name: 'Option 2', value: 'option_two'}]"></fb-select>
+                            <fb-input name="status" label="{{ _p('pages.leads.filter.name', 'Status') }}"></fb-input>
                         </div>
                     </div>
                 </filter-wrapper>
