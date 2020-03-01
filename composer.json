@@ -12,7 +12,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2",
-        "awes-io/auth": "^1.1",
+        "awes-io/auth": "^1.2",
         "awes-io/base-js": "^1.6",
         "awes-io/context-menu": "^1.0",
         "awes-io/filter-wrapper": "^1.0",
